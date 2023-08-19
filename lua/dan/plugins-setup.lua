@@ -68,7 +68,7 @@ return packer.startup(function(use)
     use("saadparwaiz1/cmp_luasnip") -- for autocompletion
     use("rafamadriz/friendly-snippets") -- useful snippets
     use("mbbill/undotree")
-    use("ThePrimeagen/vim-be-good") 
+    use("ThePrimeagen/vim-be-good")
 
     use {
         'VonHeikemen/lsp-zero.nvim',

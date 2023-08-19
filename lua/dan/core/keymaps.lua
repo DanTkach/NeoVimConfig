@@ -7,10 +7,10 @@ local keymap = vim.keymap -- for conciseness
 -- General Keymaps
 ---------------------
 
--- use jk to exit insert mode
 keymap.set("i", "<C-c>", "<ESC>")
 keymap.set("n", "<C-u>", "<C-u>zz")
 keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("x", "<leader>p", "\"_dP")
 
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")

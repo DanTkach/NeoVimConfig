@@ -69,6 +69,7 @@ return packer.startup(function(use)
     use("rafamadriz/friendly-snippets") -- useful snippets
     use("mbbill/undotree")
     use("ThePrimeagen/vim-be-good")
+    use("nvim-treesitter/nvim-treesitter-context")
 
     use {
         'VonHeikemen/lsp-zero.nvim',
